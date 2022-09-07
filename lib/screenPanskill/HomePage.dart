@@ -145,17 +145,7 @@ class MyDrawerDirectory extends StatelessWidget {
               Navigator.pop(context);
             },
           ),
-          ListTile(
-            leading: Icon(
-              Icons.add_business,
-            ),
-            title: const Text('My Service'),
-            onTap: () {
-              Navigator.pop(context);
-              Navigator.pushReplacement(context,
-                  MaterialPageRoute(builder: (context) => ServicePage()));
-            },
-          ),
+
           ListTile(
             leading: Icon(
               Icons.account_circle,
