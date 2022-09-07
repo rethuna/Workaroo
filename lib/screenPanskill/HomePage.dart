@@ -122,8 +122,8 @@ class MyDrawerDirectory extends StatelessWidget {
             ),
             title: const Text('Home'),
             onTap: () {
-              Navigator.pop(context);
-            },
+              Navigator.pushReplacement(context,
+                  MaterialPageRoute(builder: (context) => HomeScreen()));            },
           ),
           ListTile(
             leading: Icon(
@@ -131,7 +131,6 @@ class MyDrawerDirectory extends StatelessWidget {
             ),
             title: const Text('My Business'),
             onTap: () {
-              Navigator.pop(context);
               Navigator.pushReplacement(context,
                   MaterialPageRoute(builder: (context) => BusinessPage()));
             },
