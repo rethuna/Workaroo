@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "211292287851",
+    "project_id": "panskill-81cc2",
+    "storage_bucket": "panskill-81cc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211292287851:android:f7f5b5b1cbfc00c96e522e",
+        "android_client_info": {
+          "package_name": "com.example.panskill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211292287851-3kao38kv2n2auup7qrcm0c48t1pf0ahq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.panskill",
+            "certificate_hash": "e020c75b9f35dd0075cae41aa6017ae7302bd338"
+          }
+        },
+        {
+          "client_id": "211292287851-4gfrfk573su20tvtl2qtdmvl60uhtkhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLPezCGFTRP_eUw-Pr8GtR_90qPfzchMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211292287851-4gfrfk573su20tvtl2qtdmvl60uhtkhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
